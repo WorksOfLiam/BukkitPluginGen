@@ -1,0 +1,10 @@
+﻿name: {PluginName}
+main: com.{PackageName}.mod.{PluginName}
+version: 1.0.0
+commands:
+  pos:
+    description: Displays your position or teleports you to another.
+    usage: "Usage: '/pos' to get current position, or '/pos x y z' to teleport to x,y,z"
+  debug:
+    description: Toggles your debugging status for this plugin.
+    usage: /debug
